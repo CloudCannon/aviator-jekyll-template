@@ -1,4 +1,5 @@
 ---
+layout:
 ---
 jQuery(function() {
   var $search = $("#search"),
