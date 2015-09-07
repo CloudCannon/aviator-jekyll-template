@@ -3,24 +3,24 @@
 <head>
   <meta charset="utf-8">
   <title>{{page.title}}</title>
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/style.css">
+  <link href="{{ site.baseurl }}//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
   <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script src="/js/main.js"></script>
+  <script src="{{ site.baseurl }}/js/main.js"></script>
 
-  <link rel="stylesheet" href="/css/tomorrow.css">
-  <link rel="stylesheet" href="/css/railscasts.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/tomorrow.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/railscasts.css">
+  <script src="{{ site.baseurl }}//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
 </head>
 <body class="{{page.body_class}}">
 
   <nav class="nav-bar">
     <div class="wrap">
       <ul class="hor">
-        <li> <a href="/" class="logo"><img src="/img/logo.png" alt="logo" height="20" /></a> </li>
+        <li> <a href="{{ site.baseurl }}/" class="logo"><img src="{{ site.baseurl }}/img/logo.png" alt="logo" height="20" /></a> </li>
         {% assign current = page.url %}
         {% for main_link in site.main_links %}
           <li> <a href="{{main_link.link}}"
