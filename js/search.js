@@ -1,11 +1,13 @@
+---
+---
 jQuery(function() {
   var $search = $("#search"),
   $search_results = $("#search_results");
 
   if ($('.multi-page').length == 0) {
-    var data = $.getJSON('/search_data.json');
+    var data = $.getJSON('{{ site.baseurl }}/search_data.json');
   } else {
-    var data = $.getJSON('/search_data_multi.json');
+    var data = $.getJSON('{{ site.baseurl }}/search_data_multi.json');
   }
 
   $(document).click(function(event) {
