@@ -1,3 +1,5 @@
+---
+---
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
@@ -463,7 +465,7 @@ pre {
   border-radius: 5px;
   padding: 6px;
   width: 200px;
-  background: #1976D2 url(/img/search.png) no-repeat 190px center;
+  background: #1976D2 url({{ site.baseurl }}/img/search.png) no-repeat 190px center;
   background-size: 15px 19px;
 }
 
