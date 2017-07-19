@@ -1,9 +1,9 @@
 # ----
 # Site
 
-title: Aviator
-description: Jekyll template for API documentation.
-url: https://example.com
+title: "Magic: The Gathering API Documentation"
+description: "Documentation for the Magic: The Gathering API at magicthegathering.io"
+url: https://docs.magicthegathering.io
 google_analytics_key:
 permalink: pretty
 
@@ -11,8 +11,8 @@ collections:
   documentation:
     title: Documentation
     position: 1
-  api:
-    title: APIs
+  api_v1:
+    title: API (v1)
     position: 2
 gems:
   - jekyll-sitemap

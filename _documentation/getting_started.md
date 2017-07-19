@@ -3,20 +3,15 @@ title: Getting Started
 position: 1
 ---
 
-Welcome to our API.
+Welcome to the Magic: The Gathering API! You can use the API to access Magic: The Gathering API endpoints, which can get information on cards and sets. All API access is performed over HTTPS and accessed from the `https://api.magicthegathering.io` domain.
 
-This API document is designed for those interested in developing for our platform.
+To use the API endpoints, the format is as follows:
 
-This API is still under development and will evolve.
+`https://api.magicthegathering.io/<version>/<resource>`
 
-You'll succeed if you do this.
-{: .success }
+For example:
 
-Here's some useful information.
-{: .info }
+`https://api.magicthegathering.io/v1/cards`
 
-Something may not happen if you try and do this.
-{: .warning }
-
-Something bad will happen if you do this.
-{: .error }
+There are multiple SDKs available to make it even easier to consume the API.
+To chat with other developers and discuss the API and SDKs, check out the Discord Server!
