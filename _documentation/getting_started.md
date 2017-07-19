@@ -14,4 +14,4 @@ For example:
 `https://api.magicthegathering.io/v1/cards`
 
 There are multiple SDKs available to make it even easier to consume the API.
-To chat with other developers and discuss the API and SDKs, check out the Discord Server!
+To chat with other developers and discuss the API and SDKs, check out the [Discord Server](https://discord.gg/qwGJNnP)!
