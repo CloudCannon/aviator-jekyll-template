@@ -4,5 +4,5 @@ rvm:
   - 2.3.0
 install: 
   - gem install jekyll -v 3.4 && gem install s3_website && gem install jekyll-sitemap && gem install jekyll-seo-tag
-script: jekyll build
+script: bundle exec jekyll build
 after_success: s3_website push
