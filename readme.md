@@ -1,5 +1,7 @@
 # Magic: The Gathering API Documentation
 
+[![Build Status](https://travis-ci.org/MagicTheGathering/mtg-docs.svg?branch=master)](https://travis-ci.org/MagicTheGathering/mtg-docs)
+
 Welcome to the API documentation! Please feel free to make pull requests if you see something is out of date, or you wish to provide additional docs for an SDK or the API itself.
 
 ## Setup
