@@ -15,3 +15,5 @@ For example:
 
 There are multiple SDKs available to make it even easier to consume the API.
 To chat with other developers and discuss the API and SDKs, check out the [Discord Server](https://discord.gg/qwGJNnP)!
+
+[![mtg-developers on discord](https://img.shields.io/badge/discord-mtg%20developers-738bd7.svg)](https://discord.gg/qwGJNnP)
