@@ -1,6 +1,6 @@
 ---
 title: /supertypes
-position: 1.7
+position: 5.0
 type: get
 description: Get All Super Types
 right_code: |

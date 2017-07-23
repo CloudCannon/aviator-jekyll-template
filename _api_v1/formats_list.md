@@ -1,6 +1,6 @@
 ---
 title: /formats
-position: 1.7
+position: 6.0
 type: get
 description: Get All Game Formats
 right_code: |

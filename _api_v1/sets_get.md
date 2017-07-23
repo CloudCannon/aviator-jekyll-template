@@ -1,6 +1,6 @@
 ---
 title: /sets/:id
-position: 1.4
+position: 2.1
 type: get
 description: Get Set
 right_code: |

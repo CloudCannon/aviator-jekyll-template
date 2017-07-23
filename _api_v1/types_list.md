@@ -1,6 +1,6 @@
 ---
 title: /types
-position: 1.5
+position: 3.0
 type: get
 description: Get All Types
 right_code: |

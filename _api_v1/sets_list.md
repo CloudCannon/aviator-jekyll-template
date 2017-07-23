@@ -1,6 +1,6 @@
 ---
 title: /sets
-position: 1.3
+position: 2.0
 type: get
 description: Get All Sets
 right_code: |

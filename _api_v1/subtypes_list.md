@@ -1,6 +1,6 @@
 ---
 title: /subtypes
-position: 1.6
+position: 4.0
 type: get
 description: Get All Sub Types
 right_code: |
