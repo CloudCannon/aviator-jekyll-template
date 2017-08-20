@@ -218,22 +218,21 @@ random
 contains
 : Filter cards based on whether or not they have a specific field available (like imageUrl)
 
+id
+: A unique id for this card. It is made up by doing an SHA1 hash of setCode + cardName + cardImageName
+
+multiverseid
+: The multiverseid of the card on Wizard’s Gatherer web page. Cards from sets that do not exist on Gatherer will NOT have a multiverseid. Sets not on Gatherer are: ATH, ITP, DKM, RQS, DPA and all sets with a 4 letter code that starts with a lowercase 'p’.
 
 #### Other Fields in Response
 
 The fields below are also part of the response (if not null), but cannot currently be used as query parameters
-
-id
-: A unique id for this card. It is made up by doing an SHA1 hash of setCode + cardName + cardImageName
 
 names
 : Only used for split, flip and dual cards. Will contain all the names on this card, front or back
 
 manaCost
 : The mana cost of this card. Consists of one or more mana symbols. (use cmc and colors to query)
-
-multiverseId
-: The multiverseid of the card on Wizard’s Gatherer web page. Cards from sets that do not exist on Gatherer will NOT have a multiverseid. Sets not on Gatherer are: ATH, ITP, DKM, RQS, DPA and all sets with a 4 letter code that starts with a lowercase 'p’.
 
 variations
 : If a card has alternate art (for example, 4 different Forests, or the 2 Brothers Yamazaki) then each other variation’s multiverseid will be listed here, NOT including the current card’s multiverseid.
