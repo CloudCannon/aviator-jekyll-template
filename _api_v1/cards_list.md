@@ -191,11 +191,8 @@ toughness
 loyalty
 : The loyalty of the card. This is only present for planeswalkers.
 
-foreignName
-: The name of a card in a foreign language it was printed in
-
 language
-: The language the card is printed in. Use this parameter when searching by foreignName
+: The language the card is printed in. Use this parameter along with the name parameter when searching by foreignName
 
 gameFormat
 : The game format, such as Commander, Standard, Legacy, etc. (when used, legality defaults to Legal unless supplied)
