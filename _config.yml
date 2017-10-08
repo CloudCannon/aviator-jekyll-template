@@ -14,6 +14,9 @@ collections:
   api_v1:
     title: API (v1)
     position: 2
+  advanced:
+    title: Advanced Usage
+    position: 3
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
