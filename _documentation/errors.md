@@ -1,20 +1,20 @@
 ---
 title: Errors
-position: 3
+position: 4
+right_code: |
+  ~~~ json
+  {
+    "status": 404,
+    "error": "error message here"
+  }
+  ~~~
+  {: title="Error Response" }
 ---
 
 | Code | Name        | Description                      |
 |------|-------------|----------------------------------|
-| 200  | OK          | Success                          |
-| 201  | Created     | Creation Successful              |
 | 400  | Bad Request | We could not process that action |
-| 403  | Forbidden   | We couldn't authenticate you     |
-
-All errors will return JSON in the following format:
-
-~~~ json
-{
-  "error": true,
-  "message": "error message here"
-}
-~~~
+| 403  | Forbidden   | You exceeded the rate limit      |
+| 404  | Not Found   | The requested resource could not be found |
+| 500  | Internal Server Error | We had a problem with our server. Please try again later |
+| 503  | Service Unavailable   | We are temporarily offline for maintenance. Please try again later |

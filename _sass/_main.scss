@@ -439,6 +439,7 @@ header {
 	overflow-x: hidden;
 	z-index: 1;
 	background-color: $nav-background-color;
+	text-align: center;
 
 	h1 {
 		height: $nav-header-height;
@@ -447,7 +448,7 @@ header {
 		color: #fff;
 		margin: 0;
 		font-size: 1.7rem;
-		line-height: 0.8;
+		line-height: 1.3;
 		letter-spacing: 0;
 		font-weight: 600;
 		text-indent: 0;
@@ -455,6 +456,12 @@ header {
 		@include flex-direction(row);
 		@include align-items(center);
 		border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+
+		a {
+			&:hover {
+				text-decoration: none;
+			}
+		}
 
 		img {
 			height: 26px;
