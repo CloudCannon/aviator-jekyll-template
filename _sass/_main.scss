@@ -272,6 +272,10 @@ hr {
 	border-radius: 2px;
 }
 
+.warning {
+    border-color: #ffc107;
+}
+
 .info {
 	border-color: #56ADEC;
 }
@@ -463,7 +467,7 @@ header {
 	}
 
 	.open-nav {
-		background-image: url(/images/menu.svg);
+		background-image: url($base-url + '/images/menu.svg');
 		background-color: transparent;
 		background-repeat: no-repeat;
 		background-size: 100%;

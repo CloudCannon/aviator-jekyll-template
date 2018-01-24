@@ -20,7 +20,7 @@ gems:
 
 exclude:
   - readme.md
-  - LICENCE
+  - LICENSE
 
 defaults:
   -
@@ -28,9 +28,43 @@ defaults:
       path: ""
     values:
       layout: default
+  -
+    scope:
+      type: "documentation"
+    values:
+      _hide_content: true
+  -
+    scope:
+      type: "api"
+    values:
+      _hide_content: true
 
 types:
   - get
   - put
   - delete
   - post
+
+languages:
+  - bash
+  - c
+  - css
+  - html
+  - java
+  - javascript
+  - json
+  - php
+  - python
+  - ruby
+
+_options:
+  content_markdown:
+    format: p h4 h5 h6
+    bold: true
+    italic: true
+    link: true
+    bulletedlist: true
+    numberedlist: true
+    image: true
+    table: true
+    styles: /css/editor.css

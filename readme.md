@@ -28,7 +28,7 @@ Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jeky
 
 ## Develop
 
-Aviator was built with [Jekyll](http://jekyllrb.com/) version 3.1.6, but should support newer versions as well.
+Aviator was built with [Jekyll](http://jekyllrb.com/) version 3.6.2, but should support newer versions as well.
 
 Install the dependencies with [Bundler](http://bundler.io/):
 
