@@ -46,16 +46,16 @@ types:
   - post
 
 languages:
-  - bash
-  - c
-  - css
-  - html
-  - java
-  - javascript
-  - json
-  - php
-  - python
-  - ruby
+  bash: Bash
+  c: C
+  css: CSS
+  html: HTML
+  java: Java
+  javascript: JavaScript
+  json: JSON
+  php: PHP
+  python: Python
+  ruby: Ruby
 
 _options:
   content_markdown:
