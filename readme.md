@@ -6,9 +6,7 @@ Start documenting your API with this configurable theme.
 ![Aviator template screenshot](images/_screenshot.png)
 
 Aviator was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
-Find more templates and themes at [Jekyll Tips](http://jekyll.tips/templates/).
-
-Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jekyll.tips/).
+Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
 ## Features
 
@@ -28,7 +26,7 @@ Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jeky
 
 ## Develop
 
-Aviator was built with [Jekyll](http://jekyllrb.com/) version 3.6.2, but should support newer versions as well.
+Aviator was built with [Jekyll](http://jekyllrb.com/) version 3.7.2, but should support newer versions as well.
 
 Install the dependencies with [Bundler](http://bundler.io/):
 
