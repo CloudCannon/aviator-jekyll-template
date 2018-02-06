@@ -7,6 +7,10 @@ jQuery(function() {
 
 	var $el;
 
+	$sidebar.find('a').click(function() {
+		$('body').removeClass('nav-open');
+	});
+
 	$("section > div.highlighter-rouge:first-of-type").each(function(i) {
 
 		var $this = $(this).before("<ul class=\"languages\"></ul>"),

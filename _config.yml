@@ -14,7 +14,7 @@ collections:
   api:
     title: APIs
     position: 2
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
