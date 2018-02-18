@@ -7,6 +7,11 @@ url: https://example.com
 google_analytics_key:
 permalink: pretty
 
+# -----
+# Build
+
+timezone: Etc/UTC
+
 collections:
   documentation:
     title: Documentation
@@ -38,6 +43,9 @@ defaults:
       type: "api"
     values:
       _hide_content: true
+
+# -----------
+# CloudCannon
 
 types:
   - get
