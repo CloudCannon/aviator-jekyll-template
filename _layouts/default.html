@@ -4,6 +4,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" >
 
+		{% seo %}
+
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 			<script>
 				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -12,11 +16,7 @@
 			</script>
 			<script async src='https://www.google-analytics.com/analytics.js'></script>
 		{% endif %}
-
-		{% seo %}
-
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
-
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script src="{{ site.baseurl }}/js/main.js"></script>
 	</head>
