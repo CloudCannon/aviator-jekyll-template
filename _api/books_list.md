@@ -42,7 +42,7 @@ right_code_blocks:
       [
         {
           "id": 1,
-          "title": "The Hunger Games",
+          "title": "The Hunger Gamesrr",
           "score": 4.5,
           "dateAdded": "12/12/2013"
         },
