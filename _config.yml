@@ -6,6 +6,7 @@ description: Jekyll template for API documentation.
 url: https://example.com
 google_analytics_key:
 permalink: pretty
+baseurl:
 
 # -----
 # Build
