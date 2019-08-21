@@ -16,10 +16,10 @@ timezone: Etc/UTC
 collections:
   documentation:
     title: Documentation
-    position: 1
+    position_number: 1
   api:
     title: APIs
-    position: 2
+    position_number: 2
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag

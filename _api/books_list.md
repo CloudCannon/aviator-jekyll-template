@@ -1,6 +1,6 @@
 ---
 title: /books
-position: 1.0
+position_number: 1.0
 type: get
 description: List all books
 parameters:

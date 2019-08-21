@@ -1,6 +1,6 @@
 ---
 title: /books/:id
-position: 1.5
+position_number: 1.5
 type: delete
 description: Deletes a book
 parameters:

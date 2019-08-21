@@ -1,6 +1,6 @@
 ---
 title: /books/:id
-position: 1.4
+position_number: 1.4
 type: put
 description: Update Book
 parameters:

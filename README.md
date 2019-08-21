@@ -48,8 +48,8 @@ Aviator is already optimised for adding, updating and removing documentation pag
 ### Usage
 
 * Each section is a different collection, this helps organise your content.
-* Set the order of the collections with the position field in collection configuration in `_config.yml`.
-* Set the order of the documents inside a collection by setting the position in front matter.
+* Set the order of the collections with the position_number field in collection configuration in `_config.yml`.
+* Set the order of the documents inside a collection by setting the position_number in front matter.
 
 ### Search
 

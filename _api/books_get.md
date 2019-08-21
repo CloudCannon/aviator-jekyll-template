@@ -1,6 +1,6 @@
 ---
 title: /books/:id
-position: 1.3
+position_number: 1.3
 type: get
 description: Get Book
 parameters:

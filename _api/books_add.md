@@ -1,6 +1,6 @@
 ---
 title: /books
-position: 1.1
+position_number: 1.1
 type: post
 description: Create Book
 parameters:
