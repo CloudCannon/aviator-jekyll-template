@@ -9,7 +9,7 @@ Aviator was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Je
 
 Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
-## Featuressss
+## Featuressssf
 
 * Three column layout
 * Fully responsive
