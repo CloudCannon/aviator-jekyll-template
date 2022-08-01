@@ -1,4 +1,4 @@
-# Aviator
+# Aviator..
 
 API documentation template for Jekyll. Browse through a [live demo](https://tangerine-lemon.cloudvent.net/).
 Start documenting your API with this configurable theme.
