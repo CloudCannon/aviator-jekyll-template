@@ -1,9 +1,11 @@
 collections_config:
   api:
+    editor: data
     schemas:
       default:
         path: _schemas/api.md
   documentation:
+    editor: data
     schemas:
       default:
         path: _schemas/documentation.md
