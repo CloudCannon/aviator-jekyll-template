@@ -1,0 +1,23 @@
+collections_config:
+  api:
+    _enabled_editors:
+      - data
+    schemas:
+      default:
+        path: _schemas/api.md
+  documentation:
+    _enabled_editors:
+      - data
+    schemas:
+      default:
+        path: _schemas/documentation.md
+
+_inputs:
+  type:
+    type: select
+    options:
+      values:
+        - get
+        - put
+        - delete
+        - post
