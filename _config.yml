@@ -48,12 +48,6 @@ defaults:
 # -----------
 # CloudCannon
 
-types:
-  - get
-  - put
-  - delete
-  - post
-
 languages:
   bash: Bash
   c: C
