@@ -1,11 +1,13 @@
 collections_config:
   api:
-    editor: data
+    _enabled_editors:
+      - data
     schemas:
       default:
         path: _schemas/api.md
   documentation:
-    editor: data
+    _enabled_editors:
+      - data
     schemas:
       default:
         path: _schemas/documentation.md
