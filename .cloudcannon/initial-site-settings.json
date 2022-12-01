@@ -1,1 +1,11 @@
-{"ssg":"jekyll","build_configuration":{}}
+{
+  "ssg": "jekyll",
+  "build_configuration": {
+    "preserved_paths": "",
+    "environment_variables": [],
+    "jekyll_environment": "production",
+    "drafts": false,
+    "use_local_bundle": true,
+    "enable_bundle_cache": true
+  }
+}
